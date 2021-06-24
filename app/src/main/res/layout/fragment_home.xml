@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:textSize="24sp"
-            android:text="С возращением, " />
+            android:text="С возращением, "/>
 
         <TextView
             android:id="@+id/textView8"
@@ -29,7 +29,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:textSize="18sp"
-            android:text="Каким ты ощущаешь себя сегодня ?" />
+            android:text="Каким ты ощущаешь себя сегодня ?"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/feel_rec"
@@ -38,6 +38,18 @@
             android:orientation="horizontal"
             android:layout_marginTop="20dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            
+            android:layout_marginStart="25dp"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/feel_rec2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+            android:layout_marginStart="25dp"
             />
 
 
